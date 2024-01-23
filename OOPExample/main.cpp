@@ -7,6 +7,7 @@
 int main()
 {
     Person person("Alice", 30);
+    // person.name_ 과 같이 멤버를 직접 호출하지 않는다
     person.PrintInfo();
 
     std::cin.get();
